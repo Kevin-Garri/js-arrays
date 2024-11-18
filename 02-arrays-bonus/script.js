@@ -10,10 +10,7 @@ const teachers = [
 
 // 1. Inverti l'ordine degli insegnanti nell'array teachers
 // e salva il risultato nella variabile reversedTeachers
-const reversedTeachers = [];
-for (let i = teachers.length - 1; i >= 0; i--) {
-  reversedTeachers.push(teachers[i])
-}
+const reversedTeacher = teachers.toReversed();
 
 console.log(reversedTeachers);
 console.log(teachers);
